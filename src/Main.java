@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -216,16 +217,102 @@ public class Main {
 //        in.close();
 
         //Задача 13
-
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Введите строку: ");
+//        String line = in.nextLine();
+//        String reverseLine = "";
+//
+//        char[] characters = line.toCharArray();
+//
+//        for (int i = characters.length - 1; i >= 0; i--)
+//        {
+//            reverseLine = reverseLine + characters[i];
+//        }
+//
+//        if (line.equals(reverseLine))
+//        {
+//            System.out.print("Строка является палиндромом");
+//        }
+//        else
+//        {
+//            System.out.print("Строка не является палиндромом");
+//        }
+//
+//        in.close();
 
         //Задача 14
-
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Введите размер массива: ");
+//        int size = in.nextInt();
+//
+//        int nums[] = new int[size];
+//
+//        System.out.print("Введите элементы массива: ");
+//        for (int i = 0; i < size; i++)
+//        {
+//            nums[i] = in.nextInt();
+//        }
+//
+//        int max = Arrays.stream(nums).max().getAsInt();
+//
+//        System.out.println("Максимальное число в массиве " + max);
+//
+//        in.close();
 
         //Задача 15
-
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Введите размер массива: ");
+//        int size = in.nextInt();
+//
+//        int nums[] = new int[size];
+//
+//        System.out.print("Введите элементы массива: ");
+//        for (int i = 0; i < size; i++)
+//        {
+//            nums[i] = in.nextInt();
+//        }
+//
+//        int sum = Arrays.stream(nums).sum();
+//
+//        System.out.println("Сумма чисел в массиве " + sum);
+//
+//        in.close();
 
         //Задача 16
-
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Введите размер массива: ");
+//        int size = in.nextInt();
+//
+//        int nums[] = new int[size];
+//
+//        System.out.print("Введите элементы массива: ");
+//        for (int i = 0; i < size; i++)
+//        {
+//            nums[i] = in.nextInt();
+//        }
+//
+//        int positive = 0;
+//        int negative = 0;
+//
+//        for (int num : nums)
+//        {
+//            if (num > 0)
+//            {
+//                positive++;
+//            }
+//            else
+//            {
+//                negative++;
+//            }
+//        }
+//
+//        System.out.printf("Количество положительных чисел: %d \nКоличество отрицательных чисел: %d", positive, negative);
+//
+//        in.close();
 
         //Задача 17
 
