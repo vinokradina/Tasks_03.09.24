@@ -101,6 +101,12 @@ public class Main {
 //        int a = in.nextInt();
 //
 //        boolean IsNotSimple = false;
+//
+//        if (a <= 1)
+//        {
+//            IsNotSimple = true;
+//        }
+//
 //        for (int i = 2; i < a; i++)
 //        {
 //            if (a % i == 0)
@@ -315,17 +321,112 @@ public class Main {
 //        in.close();
 
         //Задача 17
-
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Введите число A: ");
+//        int A = in.nextInt();
+//
+//        System.out.print("Введите число B: ");
+//        int B = in.nextInt();
+//
+//        System.out.printf("Простые числа в диапазоне от %d до %d: ", A, B);
+//
+//        for (int i = A; i <= B; i++)
+//        {
+//            boolean IsPrime= true;
+//
+//            if (i <= 1)
+//            {
+//                IsPrime = true;
+//            }
+//            else
+//            {
+//                for (int j = 2; j <= Math.sqrt(i); j++)
+//                {
+//                    if (i % j == 0)
+//                    {
+//                        IsPrime = false;
+//                        break;
+//                    }
+//                }
+//            }
+//
+//            if (IsPrime)
+//            {
+//                System.out.print(i + " ");
+//            }
+//
+//        }
+//
+//        in.close();
 
         //Задача 18
-
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Введите строку: ");
+//        String line = in.nextLine();
+//
+//        var glas = "АаОоЭэЕеИиЫыУуЁёЮюЯя";
+//        var sogl = "БбВвГгДдЗзЙйКкЛлМмНнПпРрСсТтФфХхЦцЧчШшЩщ";
+//
+//        int glasCount = 0;
+//        int soglCount = 0;
+//
+//        for (int i = 0; i < line.length(); i++) {
+//            char ch = line.charAt(i);
+//            if (glas.indexOf(ch) != -1) {
+//                glasCount++;
+//            } else if (sogl.indexOf(ch) != -1) {
+//                soglCount++;
+//            }
+//        }
+//
+//        System.out.printf("Количество гласных: %d \nКоличество согласных: %d", glasCount, soglCount );
+//
+//        in.close();
 
         //Задача 19
-
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Введите строку: ");
+//        String line = in.nextLine();
+//
+//        String[] words = line.split(" ");
+//        StringBuilder reversedString = new StringBuilder();
+//
+//        for (int i = words.length - 1; i >= 0; i--) {
+//            reversedString.append(words[i]);
+//            if (i > 0) {
+//                reversedString.append(" ");
+//            }
+//        }
+//
+//        System.out.println("Слова в обратном порядке: " + reversedString.toString());
+//
+//        in.close();
 
         //Задача 20
-
-
-
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Введите число: ");
+//        int num = in.nextInt();
+//
+//        int number = num;
+//        int numberOfDigits = String.valueOf(num).length();
+//        int sum = 0;
+//
+//        while (num > 0) {
+//            int digit = num % 10;
+//            sum += Math.pow(digit, numberOfDigits);
+//            num /= 10;
+//        }
+//
+//        if (sum == number) {
+//            System.out.println(number + " является числом Армстронга.");
+//        } else {
+//            System.out.println(number + " не является числом Армстронга.");
+//        }
+//
+//        in.close();
     }
 }
