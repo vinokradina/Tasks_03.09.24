@@ -169,13 +169,51 @@ public class Main {
 //        in.close();
 
         //Задача 10
-
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Введите число: ");
+//        int n = in.nextInt();
+//
+//        var nDigits = String.valueOf(n).length();
+//
+//        System.out.printf("Количество цифр в числе %d равно %d", n, nDigits);
+//
+//        in.close();
 
         //Задача 11
-
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Введите число N: ");
+//        int N = in.nextInt();
+//
+//        int f = 1;
+//
+//        for (int i = N; i >= 1; i--)
+//        {
+//            f *= i;
+//        }
+//
+//        System.out.printf("Факториал числа %d равен %d", N, f);
+//
+//        in.close();
 
         //Задача 12
-
+//        Scanner in = new Scanner(System.in);
+//
+//        System.out.print("Введите число N: ");
+//        int a = in.nextInt();
+//
+//        int sum = 0;
+//
+//        while (a > 0)
+//        {
+//            sum = sum + a % 10;
+//            a = a / 10;
+//        }
+//
+//        System.out.printf("Сумма всех цифр числа равна %d", sum);
+//
+//        in.close();
 
         //Задача 13
 
